@@ -93,6 +93,6 @@ def webhook():
     reply_message(API_CONFIG, reply_token, answer)
     return '', 200
 
-@app.route('/image', methods=['GET']) 
+@app.route('/image', methods=['GET'])
 def testImage():
     return send_file('C:\Source\Src\images\step1_7w1040_V2_0.jpg', mimetype='image/jpg')
