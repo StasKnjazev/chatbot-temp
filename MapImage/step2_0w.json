@@ -1,0 +1,51 @@
+{
+    "type": "imagemap",
+    "baseUrl": "PROVIDE_URL_FROM_YOUR_SERVER",
+    "altText": "This is an imagemap",
+    "baseSize": {
+      "width": 1040,
+      "height": 1040
+    },
+    "actions": [
+      {
+        "type": "message",
+        "area": {
+          "x": 15,
+          "y": 362,
+          "width": 499,
+          "height": 120
+        },
+        "text": "ขั้นที่ 2.1 จัดทำแผนพัฒนาการจัดการศึกษา "
+      },
+      {
+        "type": "message",
+        "area": {
+          "x": 14,
+          "y": 514,
+          "width": 500,
+          "height": 119
+        },
+        "text": "2.3 การจัดทำแผนปฏิบัติการประจำปี"
+      },
+      {
+        "type": "message",
+        "area": {
+          "x": 525,
+          "y": 362,
+          "width": 503,
+          "height": 119
+        },
+        "text": "ขั้นตอนที่ 2.2 ตรวจสอบและรับรองแผนพัฒนาการจัดการศึกษา"
+      },
+      {
+        "type": "message",
+        "area": {
+          "x": 528,
+          "y": 515,
+          "width": 497,
+          "height": 118
+        },
+        "text": "ขั้นตอนที่ 2.4 ตรวจสอบและรับรองแผนปฏิบัติการประจำปี"
+      }
+    ]
+  }

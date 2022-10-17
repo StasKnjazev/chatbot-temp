@@ -1,6 +1,12 @@
 {
-    "channel_secret": "46307e1d0afd442618495e77fd50a8f3",
-    "channel_access_token": "IgHJmWAfEueUeMATIxDpXAikgfXQN8KxPHqk+/0/3PAc9dVIikRmMWdLvaj3gd2Y/QgTqAIXUr0sV/XSomukce29G+jNSaugfiV4XrlbIU+oIGGq7vO8zAWQw4312kvNxFWDEba+OYrm38SC2I06XQdB04t89/1O/w1cDnyilFU=",
-    "basic_id": "@774vwstw",
-    "LINE_API": "https://api.line.me/v2/bot/message/reply"
+    "api": {
+        "channel_secret": "46307e1d0afd442618495e77fd50a8f3",
+        "channel_access_token": "IgHJmWAfEueUeMATIxDpXAikgfXQN8KxPHqk+/0/3PAc9dVIikRmMWdLvaj3gd2Y/QgTqAIXUr0sV/XSomukce29G+jNSaugfiV4XrlbIU+oIGGq7vO8zAWQw4312kvNxFWDEba+OYrm38SC2I06XQdB04t89/1O/w1cDnyilFU=",
+        "basic_id": "@774vwstw",
+        "LINE_API": "https://api.line.me/v2/bot/message/reply"
+    },
+    
+    "model": {
+        "conf": 0.70
+    }
 }

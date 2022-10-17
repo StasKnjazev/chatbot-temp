@@ -1,0 +1,61 @@
+{
+    "type": "imagemap",
+    "baseUrl": "PROVIDE_URL_FROM_YOUR_SERVER",
+    "altText": "This is an imagemap",
+    "baseSize": {
+      "width": 1040,
+      "height": 1040
+    },
+    "actions": [
+      {
+        "type": "message",
+        "area": {
+          "x": 14,
+          "y": 512,
+          "width": 500,
+          "height": 121
+        },
+        "text": "การบันทึกข้อมูลรายงานผลการประเมินตนเอง"
+      },
+      {
+        "type": "message",
+        "area": {
+          "x": 528,
+          "y": 514,
+          "width": 500,
+          "height": 118
+        },
+        "text": "การรับรองข้อมูลรายงานการประเมินตนเองโดยผู้บริหารสถานศึกษา"
+      },
+      {
+        "type": "message",
+        "area": {
+          "x": 15,
+          "y": 668,
+          "width": 499,
+          "height": 122
+        },
+        "text": "การปลดล็อกแก้ไขและอัพโหลดไฟล์รายงานSAR ฉบับใหม่"
+      },
+      {
+        "type": "message",
+        "area": {
+          "x": 12,
+          "y": 363,
+          "width": 502,
+          "height": 121
+        },
+        "text": "ขั้นตอนที่ 6.1 จัดทำรายงานการประเมินตนเอง"
+      },
+      {
+        "type": "message",
+        "area": {
+          "x": 528,
+          "y": 362,
+          "width": 500,
+          "height": 120
+        },
+        "text": "ขั้นตอนที่ 6.2 ตรวจสอบและรองรับรายงานผลการประเมินตนเอง"
+      }
+    ]
+  }
