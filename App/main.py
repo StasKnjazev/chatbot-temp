@@ -34,7 +34,7 @@ def Home():
 
 @app.route('/webhook', methods=['POST'])
 def webhook(): 
-    # Data from webhook
+    # Data from webhook 
     payload = request.json
     events = payload['events'][0]
     userId = events['source']['userId']
@@ -44,10 +44,19 @@ def webhook():
     # label from data
     label = sorted([i.lower() for i in list(DATA["label"])])
     special_class = [i.lower() for i in list(DATA['special_class'])]
-
-    if (msg == "ระบบประกันคุณภาพการศึกษา"):
-        data = read_json("MapImage\step1_7w.json")
-        reply_message(CONFIG["api"], reply_token, messages=data)
+    mapImage = [i.lower() for i in list(DATA['mapImage'])]
+    
+    is_match_mapImage = richMenu(msg, mapImage)
+    if (is_match_mapImage):
+        content = DATA['mapImage'][msg]
+        try:
+            answer = content['answer']
+            path = content['path']
+            data = read_json(path)
+            reply_message(CONFIG["api"], reply_token, messages=data)
+        except:
+            answer = content
+            reply_message(CONFIG['api'], reply_token, answer)
         return '', 200
 
     predict, index = get_predict(msg, label, MODEL)

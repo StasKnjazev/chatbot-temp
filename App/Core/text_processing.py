@@ -14,6 +14,10 @@ def specialClass(answer, label):
     else:
         return answer
 
+def richMenu(text, label): 
+    if text in label: return True
+    return False
+
 def map_word_index(WORD2VEC_MODEL, word_seq):
     indices = []
     for word in word_seq:

@@ -1,6 +1,6 @@
 {
     "type": "imagemap",
-    "baseUrl": "PROVIDE_URL_FROM_YOUR_SERVER",
+    "baseUrl": "https://ec27-203-113-71-76.ap.ngrok.io/images/step2_1w",
     "altText": "This is an imagemap",
     "baseSize": {
       "width": 1040,
@@ -55,7 +55,7 @@
           "width": 501,
           "height": 121
         },
-        "text": "การปลดล็อกแก้ไข2.1แผนพัฒนา"
+        "text": "การปลดล็อกแก้ไข 2.1 แผนพัฒนา"
       }
     ]
   }

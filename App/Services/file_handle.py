@@ -13,7 +13,6 @@ def write_log(input, predict, index, answer):
         last_line = [i.strip() for i in f.readlines()][-1]
         f.close()
     number = last_line.split(',')[0]
-    print(last_line)
     if number == '': number = 0
     else: number = int(number)
 
